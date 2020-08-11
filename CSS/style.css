@@ -1,0 +1,84 @@
+.johan {
+  font-family: 'alex_brushregular', Arial;
+  font-size: 4em;
+  margin-bottom: 4px;
+}
+
+body {
+  background: linear-gradient(#F0F8FF, white) no-repeat fixed;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+}
+
+.float {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.dessous {
+  clear: both;
+}
+
+.tableau, .tableau2, .tableau3 {
+  border-top: 3px solid;
+  border-bottom: 1px solid;
+}
+
+.tableau4 {
+  border-radius: 0;
+  border-right: 1px solid;
+}
+
+table {
+  background-color: #FFE4C4;
+  border-radius: 20px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+.chapitre1 {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+h1, h3 {
+  text-shadow: 2px 2px 3px white;
+  /* IDEA: epaisseur et hauteur de l'ombre puis flou  */
+  color: #000000;
+  /* couleur de secours si bug d'opacité*/
+  color: rgba(9, 9, 150, 0.8);
+}
+
+hr {
+  margin: 30px auto;
+  border-style: none;
+  border-top: 8px dotted darkgrey;
+  border-width: 8px;
+  /* IDEA: 8px dans l'attribut de border top ou un autre attribut a part border width= meme effet */
+  width: 10%;
+}
+
+.serif {
+  font-family: aileronregular, Helvetica, sans-serif;
+}
+
+.CV {
+  color: black;
+  color: rgba(9, 9, 150, 0.7);
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+a {
+  margin: 0 20px;
+}
+
+a:hover {
+  color: black;
+}
